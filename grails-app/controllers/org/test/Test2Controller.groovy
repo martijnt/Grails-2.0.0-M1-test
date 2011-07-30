@@ -7,7 +7,7 @@ class Test2Controller {
 	def triggerService 
 	
     def index() { 
-		triggerService.executeRules()
+		triggerService.doNothing()
 		render "OK"	
 	}
 }
